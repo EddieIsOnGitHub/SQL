@@ -7,7 +7,7 @@
 
 -- Listing 11-1: Extracting components of a timestamp value using date_part()
 
-SELECT
+SELECT 
     date_part('year', '2019-12-01 18:37:12 EST'::timestamptz) AS "year",
     date_part('month', '2019-12-01 18:37:12 EST'::timestamptz) AS "month",
     date_part('day', '2019-12-01 18:37:12 EST'::timestamptz) AS "day",
