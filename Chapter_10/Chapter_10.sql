@@ -16,7 +16,7 @@ CREATE TABLE acs_2011_2015_stats (
     pct_masters_higher numeric(5,3) NOT NULL,
     median_hh_income integer,
     CHECK (pct_masters_higher <= pct_bachelors_higher)
-);
+); 
 
 COPY acs_2011_2015_stats
 FROM 'C:\YourDirectory\acs_2011_2015_stats.csv'
