@@ -13,7 +13,7 @@ SELECT upper('Neal7');
 SELECT lower('Randy');
 SELECT initcap('at the end of the day');
 -- Note initcap's imperfect for acronyms
-SELECT initcap('Practical SQL'); 
+SELECT initcap('Practical SQL');
 
 -- Character Information
 SELECT char_length(' Pat ');
