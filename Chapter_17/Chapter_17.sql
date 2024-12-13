@@ -7,7 +7,7 @@
 
 -- VACUUM
 
--- Listing 17-1: Creating a table to test vacuuming 
+-- Listing 17-1: Creating a table to test vacuuming
 
 CREATE TABLE vacuum_test (
     integer_column integer
