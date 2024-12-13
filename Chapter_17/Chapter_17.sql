@@ -13,7 +13,7 @@ CREATE TABLE vacuum_test (
     integer_column integer
 );
 
--- Listing 17-2: Determining the size of vacuum_test
+-- Listing 17-2: Determining the size of vacuum_test 
 
 SELECT pg_size_pretty(
            pg_total_relation_size('vacuum_test')
