@@ -1,0 +1,16 @@
+UPDATE Employees SET zip_code = '1000' WHERE emp_id = 1;
+UPDATE Employees SET zip_code = '1001' WHERE emp_id = 2;
+UPDATE Employees SET zip_code = '2000' WHERE emp_id = 3;
+UPDATE Employees SET zip_code = '2001' WHERE emp_id = 4;
+UPDATE Employees SET zip_code = '3000' WHERE emp_id = 5;
+UPDATE Employees SET zip_code = '3001' WHERE emp_id = 6;
+UPDATE Employees SET zip_code = '4000' WHERE emp_id = 7;
+UPDATE Employees SET zip_code = '4001' WHERE emp_id = 8;
+UPDATE Employees SET zip_code = '5000' WHERE emp_id = 9;
+UPDATE Employees SET zip_code = '5001' WHERE emp_id = 10;
+UPDATE Employees SET zip_code = '6000' WHERE emp_id = 11;
+UPDATE Employees SET zip_code = '6001' WHERE emp_id = 12;
+UPDATE Employees SET zip_code = '7000' WHERE emp_id = 13;
+UPDATE Employees SET zip_code = '7001' WHERE emp_id = 14;
+UPDATE Employees SET zip_code = '8000' WHERE emp_id = 15;
+UPDATE Employees SET zip_code = '8001' WHERE emp_id = 16;

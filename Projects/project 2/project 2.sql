@@ -3,14 +3,14 @@ SELECT
     e.first_name,
     e.surname,
     e.gender,
-    e.address,
     e.email,
     d.depart_name,
-    d.depart_city,
     r.role,
     s.salary_pa,
     o.overtime_hours,
     z.zip_code,
+	e.address,
+	d.depart_city,
     z.province
 FROM 
     Employees e
